@@ -13,6 +13,14 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "341b2a35-f3f8-4e0c-bb29-dc1475ffe48d",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "137b9465-da4a-4d17-a0b9-c6c34c564af4",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "64841cf5-7035-4779-b9d6-1e15f49de974",
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
@@ -194,8 +202,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "6c29653e-b6fd-4e12-a68f-7e4b68b1734e",
-            "x": 107.33333333333337,
-            "y": 210.6666666666668,
+            "x": 109.3333333333334,
+            "y": 363.33333333333377,
             "actors": [],
             "triggers": [
                 {
@@ -600,7 +608,7 @@
                     "id": "1c3f0a07-f9a0-4b62-a2c5-72b4870edeb8",
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "37e86cea-65f6-4694-857f-161d169c4ed0",
+                        "musicId": "f4927787-f8e7-402b-81a6-17d130560739",
                         "loop": true
                     }
                 },
@@ -618,7 +626,8 @@
                     "args": {
                         "color": "black",
                         "x": 0,
-                        "y": 0
+                        "y": 0,
+                        "__collapse": true
                     }
                 },
                 {
@@ -627,7 +636,8 @@
                     "args": {
                         "x": 0,
                         "y": 18,
-                        "speed": "1"
+                        "speed": "1",
+                        "__collapse": true
                     }
                 },
                 {
@@ -641,7 +651,7 @@
                     "id": "259493d8-1ddd-460e-abbb-3cc177ab364e",
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
-                        "sceneId": "cf1e7a74-dc37-47e9-b58f-9485d13a68dc",
+                        "sceneId": "54178ee0-86a4-48bf-84b7-b5a7caa166c6",
                         "x": 0,
                         "y": 0,
                         "direction": "",
@@ -1115,7 +1125,7 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "cf1e7a74-dc37-47e9-b58f-9485d13a68dc",
-            "x": 331,
+            "x": 511.66666666666663,
             "y": 30,
             "actors": [],
             "triggers": [],
@@ -1168,7 +1178,7 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "c7437ba4-bb64-4cd9-a6c3-6dfa8445d529",
-            "x": 525.3333333333334,
+            "x": 703.333333333333,
             "y": 30,
             "actors": [],
             "triggers": [],
@@ -2348,11 +2358,79 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "df1d48f0-5ef4-4f5f-a3ba-89aa23ebed65",
-            "x": 190.66666666666669,
-            "y": 390.66666666666663,
+            "x": 106.66666666666666,
+            "y": 578,
             "actors": [],
             "triggers": [],
             "type": "3"
+        },
+        {
+            "name": "Title Screen Intro",
+            "backgroundId": "88191d98-9561-4a2a-b505-450e37ae0ab8",
+            "width": 20,
+            "height": 36,
+            "collisions": [],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "b63898b9-b1f1-4c7d-b742-3982297f2778",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    }
+                },
+                {
+                    "id": "bef0b448-0255-45f0-a34b-b82799493489",
+                    "command": "EVENT_CAMERA_MOVE_TO",
+                    "args": {
+                        "x": 0,
+                        "y": 42,
+                        "speed": "0",
+                        "__collapse": false
+                    }
+                },
+                {
+                    "id": "09d15fc8-e0b9-4394-842e-1004cb6da3ee",
+                    "command": "EVENT_CAMERA_MOVE_TO",
+                    "args": {
+                        "x": 0,
+                        "y": 0,
+                        "speed": "2",
+                        "__collapse": false
+                    }
+                },
+                {
+                    "id": "298b1e4d-e68d-4781-b8a3-7330953552b3",
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 1
+                    }
+                },
+                {
+                    "id": "7215fc12-a764-461a-a724-d9973476273f",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "cf1e7a74-dc37-47e9-b58f-9485d13a68dc",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2",
+                        "__collapse": false
+                    }
+                },
+                {
+                    "id": "c9a77961-6a78-4ec9-a7e1-857a918f50b7",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "54178ee0-86a4-48bf-84b7-b5a7caa166c6",
+            "x": 320.00000000000017,
+            "y": 30,
+            "actors": [],
+            "triggers": []
         }
     ],
     "backgrounds": [
@@ -2443,6 +2521,17 @@
             "filename": "titlescreen.png",
             "inode": "2533274790457755",
             "_v": 1613428160454
+        },
+        {
+            "id": "88191d98-9561-4a2a-b505-450e37ae0ab8",
+            "name": "titlescreen_intro",
+            "width": 20,
+            "height": 36,
+            "imageWidth": 160,
+            "imageHeight": 288,
+            "filename": "titlescreen_intro.png",
+            "inode": "4222124650721759",
+            "_v": 1613429307835
         }
     ],
     "spriteSheets": [
@@ -2823,6 +2912,22 @@
     ],
     "music": [
         {
+            "id": "f4927787-f8e7-402b-81a6-17d130560739",
+            "name": "Detective Intro",
+            "filename": "Detective Intro.mod",
+            "settings": {},
+            "inode": "4222124650721756",
+            "_v": 1613428522135
+        },
+        {
+            "id": "137b9465-da4a-4d17-a0b9-c6c34c564af4",
+            "name": "Short Hauntings",
+            "filename": "Short Hauntings.mod",
+            "settings": {},
+            "inode": "3377699720589789",
+            "_v": 1613428523901
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
@@ -2859,7 +2964,7 @@
         "startY": 0,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 100,
+        "worldScrollX": 120,
         "worldScrollY": 0,
         "zoom": 150,
         "customColorsEnabled": false,
