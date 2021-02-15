@@ -597,6 +597,14 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "1c3f0a07-f9a0-4b62-a2c5-72b4870edeb8",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "37e86cea-65f6-4694-857f-161d169c4ed0",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "1532f23f-76ce-460e-b66f-8ae391b59d20",
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
@@ -657,7 +665,7 @@
         },
         {
             "name": "Title Screen",
-            "backgroundId": "aa02dadf-867a-4817-b303-3bdc7e1f7b45",
+            "backgroundId": "4e09b856-9db4-4e5a-9e93-bbaad5a3ca25",
             "width": 20,
             "height": 18,
             "collisions": [
@@ -2356,8 +2364,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cutscene_placeholder.png",
-            "inode": "19703248369785778",
-            "_v": 1613333743642
+            "inode": "3096224743879062",
+            "_v": 1613417564401
         },
         {
             "id": "27dd00f2-acd5-4b82-a248-bf00e917251b",
@@ -2367,8 +2375,8 @@
             "imageWidth": 2040,
             "imageHeight": 144,
             "filename": "leaving_earth.png",
-            "inode": "4222124650689444",
-            "_v": 1613333743642
+            "inode": "3940649674010883",
+            "_v": 1613410117605
         },
         {
             "id": "837f0b5b-0826-4c76-95d1-7f71e387e775",
@@ -2378,8 +2386,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "inode": "1688849860384702",
-            "_v": 1613333743642
+            "inode": "5348024557564287",
+            "_v": 1613424464188
         },
         {
             "id": "16389e2d-7e9f-4d69-bf8b-00fe5ac6a289",
@@ -2389,8 +2397,8 @@
             "imageWidth": 2040,
             "imageHeight": 144,
             "filename": "lvl_1.png",
-            "inode": "3940649674306832",
-            "_v": 1613333743642
+            "inode": "3940649674010918",
+            "_v": 1613410117605
         },
         {
             "id": "634b6a56-497f-411a-a0ab-559a05235069",
@@ -2400,8 +2408,8 @@
             "imageWidth": 192,
             "imageHeight": 368,
             "filename": "lvl_boss.png",
-            "inode": "8444249301677336",
-            "_v": 1613333743642
+            "inode": "4222124650721573",
+            "_v": 1613410117605
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -2411,8 +2419,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "2814749767639213",
-            "_v": 1613333743642
+            "inode": "2533274790457616",
+            "_v": 1613410117605
         },
         {
             "id": "c732c08f-c0e6-46dd-b0c2-6efd043482fb",
@@ -2422,19 +2430,19 @@
             "imageWidth": 2040,
             "imageHeight": 144,
             "filename": "stars_wide.png",
-            "inode": "4503599627905050",
-            "_v": 1613333743642
+            "inode": "3096224743878917",
+            "_v": 1613410117605
         },
         {
-            "id": "aa02dadf-867a-4817-b303-3bdc7e1f7b45",
+            "id": "4e09b856-9db4-4e5a-9e93-bbaad5a3ca25",
             "name": "titlescreen",
             "width": 20,
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "inode": "28147497671180523",
-            "_v": 1613333743642
+            "inode": "2533274790457755",
+            "_v": 1613428160454
         }
     ],
     "spriteSheets": [
@@ -2444,8 +2452,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "2814749767639221",
-            "_v": 1613333743642
+            "inode": "5348024557564096",
+            "_v": 1613410117605
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -2453,26 +2461,26 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "2814749767639223",
-            "_v": 1613333743642
+            "inode": "3377699720589506",
+            "_v": 1613410117605
         },
         {
             "id": "50b3f47b-b2ad-4300-98a9-5441065341f8",
             "name": "spear_horizontal",
-            "numFrames": 1,
-            "type": "static",
+            "numFrames": 4,
+            "type": "animated",
             "filename": "spear_horizontal.png",
-            "inode": "18014398509555223",
-            "_v": 1613345894845
+            "inode": "4222124650721662",
+            "_v": 1613412959806
         },
         {
             "id": "a5894d3a-ae0f-4586-9afb-38de0f65b81a",
             "name": "spear_vertical",
-            "numFrames": 1,
-            "type": "static",
+            "numFrames": 4,
+            "type": "animated",
             "filename": "spear_vertical.png",
-            "inode": "31525197391753452",
-            "_v": 1613345908459
+            "inode": "5348024557564301",
+            "_v": 1613412751500
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -2480,8 +2488,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "3377699721060538",
-            "_v": 1613333743642
+            "inode": "3940649674010820",
+            "_v": 1613410117605
         }
     ],
     "palettes": [
@@ -2819,8 +2827,16 @@
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "2814749767639217",
-            "_v": 1613333743631
+            "inode": "3377699720589500",
+            "_v": 1613410117603
+        },
+        {
+            "id": "37e86cea-65f6-4694-857f-161d169c4ed0",
+            "name": "test_intro",
+            "filename": "test_intro.mod",
+            "settings": {},
+            "inode": "3377699720589692",
+            "_v": 1613410117603
         }
     ],
     "variables": [
@@ -2843,7 +2859,7 @@
         "startY": 0,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 103,
+        "worldScrollX": 100,
         "worldScrollY": 0,
         "zoom": 150,
         "customColorsEnabled": false,
