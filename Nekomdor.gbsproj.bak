@@ -605,14 +605,6 @@
             "tileColors": [],
             "script": [
                 {
-                    "id": "1c3f0a07-f9a0-4b62-a2c5-72b4870edeb8",
-                    "command": "EVENT_MUSIC_PLAY",
-                    "args": {
-                        "musicId": "f4927787-f8e7-402b-81a6-17d130560739",
-                        "loop": true
-                    }
-                },
-                {
                     "id": "1532f23f-76ce-460e-b66f-8ae391b59d20",
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
@@ -2372,6 +2364,14 @@
             "collisions": [],
             "tileColors": [],
             "script": [
+                {
+                    "id": "3b4b8194-9473-4e36-a3f5-d3c9da5e6774",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "f4927787-f8e7-402b-81a6-17d130560739",
+                        "loop": true
+                    }
+                },
                 {
                     "id": "b63898b9-b1f1-4c7d-b742-3982297f2778",
                     "command": "EVENT_ACTOR_HIDE",
