@@ -160,7 +160,8 @@
                     "command": "EVENT_CALL_CUSTOM_EVENT",
                     "args": {
                         "customEventId": "c00a034b-7ed6-4421-b6a2-2238af6883e0",
-                        "__name": "Init Dash - Vertical"
+                        "__name": "Init Dash - Vertical",
+                        "__collapse": true
                     },
                     "children": {
                         "script": [
@@ -176,6 +177,14 @@
                                 },
                                 "children": {
                                     "true": [
+                                        {
+                                            "id": "5328730a-5abe-414c-9c0f-0938e1a02937",
+                                            "command": "EVENT_PLAYER_SET_SPRITE",
+                                            "args": {
+                                                "spriteSheetId": "14887251-3c7f-4cf2-aae6-a5d2c21fc82a",
+                                                "persist": false
+                                            }
+                                        },
                                         {
                                             "id": "4bea3255-27ea-4941-a075-ee1db5314223",
                                             "command": "EVENT_IF_INPUT",
@@ -240,6 +249,21 @@
                                                         "command": "EVENT_END"
                                                     }
                                                 ]
+                                            }
+                                        },
+                                        {
+                                            "id": "d87572f7-f1c4-4476-a8f1-cd6a9025d22f",
+                                            "command": "EVENT_WAIT",
+                                            "args": {
+                                                "time": 0.2
+                                            }
+                                        },
+                                        {
+                                            "id": "0ab7acf7-172d-4288-ba6e-c37b83789905",
+                                            "command": "EVENT_PLAYER_SET_SPRITE",
+                                            "args": {
+                                                "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+                                                "persist": false
                                             }
                                         },
                                         {
@@ -2815,7 +2839,7 @@
             "imageHeight": 144,
             "filename": "cutscene_placeholder.png",
             "inode": "19984723346496434",
-            "_v": 1613515131606
+            "_v": 1613592933830
         },
         {
             "id": "27dd00f2-acd5-4b82-a248-bf00e917251b",
@@ -2826,7 +2850,7 @@
             "imageHeight": 144,
             "filename": "leaving_earth.png",
             "inode": "4222124650689444",
-            "_v": 1613515131612
+            "_v": 1613592933830
         },
         {
             "id": "837f0b5b-0826-4c76-95d1-7f71e387e775",
@@ -2837,7 +2861,7 @@
             "imageHeight": 144,
             "filename": "logo.png",
             "inode": "1125899906898458",
-            "_v": 1613515131606
+            "_v": 1613592933830
         },
         {
             "id": "16389e2d-7e9f-4d69-bf8b-00fe5ac6a289",
@@ -2848,7 +2872,7 @@
             "imageHeight": 144,
             "filename": "lvl_1.png",
             "inode": "3940649674306832",
-            "_v": 1613515131606
+            "_v": 1613592933830
         },
         {
             "id": "8b4fa39a-6244-43af-ab87-fc5ed1b7bf48",
@@ -2859,7 +2883,7 @@
             "imageHeight": 160,
             "filename": "lvl_2.png",
             "inode": "2251799813886900",
-            "_v": 1613515131606
+            "_v": 1613592933830
         },
         {
             "id": "634b6a56-497f-411a-a0ab-559a05235069",
@@ -2870,7 +2894,7 @@
             "imageHeight": 368,
             "filename": "lvl_boss.png",
             "inode": "8444249301677336",
-            "_v": 1613515131606
+            "_v": 1613592933830
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -2881,7 +2905,7 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "inode": "2814749767639213",
-            "_v": 1613515131612
+            "_v": 1613592933830
         },
         {
             "id": "c732c08f-c0e6-46dd-b0c2-6efd043482fb",
@@ -2892,7 +2916,7 @@
             "imageHeight": 144,
             "filename": "stars_wide.png",
             "inode": "4503599627905050",
-            "_v": 1613515131612
+            "_v": 1613592933830
         },
         {
             "id": "4e09b856-9db4-4e5a-9e93-bbaad5a3ca25",
@@ -2903,7 +2927,7 @@
             "imageHeight": 144,
             "filename": "titlescreen.png",
             "inode": "1407374883609119",
-            "_v": 1613515131606
+            "_v": 1613592933830
         },
         {
             "id": "88191d98-9561-4a2a-b505-450e37ae0ab8",
@@ -2914,7 +2938,7 @@
             "imageHeight": 288,
             "filename": "titlescreen_intro.png",
             "inode": "1125899906898481",
-            "_v": 1613515131607
+            "_v": 1613592933830
         }
     ],
     "spriteSheets": [
@@ -2925,7 +2949,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "2814749767639221",
-            "_v": 1613515131608
+            "_v": 1613592933830
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -2934,7 +2958,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "2814749767639223",
-            "_v": 1613515131607
+            "_v": 1613592933830
         },
         {
             "id": "fb6158cf-12d2-49de-a139-1fd107a473fe",
@@ -2943,7 +2967,7 @@
             "type": "animated",
             "filename": "bullet_left.png",
             "inode": "3377699720720859",
-            "_v": 1613515131606
+            "_v": 1613592933830
         },
         {
             "id": "8f1c9792-1c04-4127-b05a-a531ff1e9ccd",
@@ -2952,7 +2976,7 @@
             "type": "animated",
             "filename": "enemy_ship.png",
             "inode": "5629499534406053",
-            "_v": 1613515131607
+            "_v": 1613592933830
         },
         {
             "id": "14887251-3c7f-4cf2-aae6-a5d2c21fc82a",
@@ -2961,7 +2985,7 @@
             "type": "animated",
             "filename": "explode.png",
             "inode": "16044073672703978",
-            "_v": 1613515131607
+            "_v": 1613592933830
         },
         {
             "id": "50b3f47b-b2ad-4300-98a9-5441065341f8",
@@ -2970,7 +2994,7 @@
             "type": "animated",
             "filename": "spear_horizontal.png",
             "inode": "18295873486265879",
-            "_v": 1613515131607
+            "_v": 1613592933830
         },
         {
             "id": "a5894d3a-ae0f-4586-9afb-38de0f65b81a",
@@ -2979,7 +3003,7 @@
             "type": "animated",
             "filename": "spear_vertical.png",
             "inode": "106960491150183660",
-            "_v": 1613515131607
+            "_v": 1613592933830
         },
         {
             "id": "05b21855-a3a5-4478-b137-0edc85d3d68f",
@@ -2988,7 +3012,7 @@
             "type": "animated",
             "filename": "star_1_animated.png",
             "inode": "23362423067096279",
-            "_v": 1613515131607
+            "_v": 1613592933830
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -2997,7 +3021,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "3377699721060538",
-            "_v": 1613515131609
+            "_v": 1613592933830
         }
     ],
     "palettes": [
@@ -3532,6 +3556,14 @@
                     "children": {
                         "true": [
                             {
+                                "id": "5328730a-5abe-414c-9c0f-0938e1a02937",
+                                "command": "EVENT_PLAYER_SET_SPRITE",
+                                "args": {
+                                    "spriteSheetId": "14887251-3c7f-4cf2-aae6-a5d2c21fc82a",
+                                    "persist": false
+                                }
+                            },
+                            {
                                 "id": "4bea3255-27ea-4941-a075-ee1db5314223",
                                 "command": "EVENT_IF_INPUT",
                                 "args": {
@@ -3598,6 +3630,21 @@
                                 }
                             },
                             {
+                                "id": "d87572f7-f1c4-4476-a8f1-cd6a9025d22f",
+                                "command": "EVENT_WAIT",
+                                "args": {
+                                    "time": 0.2
+                                }
+                            },
+                            {
+                                "id": "0ab7acf7-172d-4288-ba6e-c37b83789905",
+                                "command": "EVENT_PLAYER_SET_SPRITE",
+                                "args": {
+                                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+                                    "persist": false
+                                }
+                            },
+                            {
                                 "id": "71a93177-7513-4588-9839-cc2b0d6efd6e",
                                 "command": "EVENT_END"
                             }
@@ -3618,7 +3665,7 @@
             "filename": "Detective Intro.mod",
             "settings": {},
             "inode": "1125899906898509",
-            "_v": 1613515131588
+            "_v": 1613592933813
         },
         {
             "id": "137b9465-da4a-4d17-a0b9-c6c34c564af4",
@@ -3626,7 +3673,7 @@
             "filename": "Short Hauntings.mod",
             "settings": {},
             "inode": "1407374883609177",
-            "_v": 1613515131588
+            "_v": 1613592933813
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -3634,7 +3681,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "2814749767639217",
-            "_v": 1613515131588
+            "_v": 1613592933813
         },
         {
             "id": "37e86cea-65f6-4694-857f-161d169c4ed0",
@@ -3642,7 +3689,7 @@
             "filename": "test_intro.mod",
             "settings": {},
             "inode": "3940649674673727",
-            "_v": 1613515131588
+            "_v": 1613592933813
         }
     ],
     "variables": [
@@ -3673,7 +3720,7 @@
         "startY": 0,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1,
+        "worldScrollX": 101,
         "worldScrollY": 0,
         "zoom": 125,
         "customColorsEnabled": false,
