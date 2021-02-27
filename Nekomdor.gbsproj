@@ -5903,9 +5903,9 @@
                                         "id": "d41e29a3-52e1-4c69-9356-e65746ea10a6",
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
-                                            "sceneId": "df1d48f0-5ef4-4f5f-a3ba-89aa23ebed65",
-                                            "x": 11,
-                                            "y": 32,
+                                            "sceneId": "aac1a791-a539-410a-9a11-0f53403e8169",
+                                            "x": 0,
+                                            "y": 0,
                                             "direction": "up",
                                             "fadeSpeed": "2"
                                         }
@@ -8255,8 +8255,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "df1d48f0-5ef4-4f5f-a3ba-89aa23ebed65",
-            "x": 117.33333333333331,
-            "y": 576.6666666666663,
+            "x": 351.9999999999999,
+            "y": 601.9999999999993,
             "actors": [],
             "triggers": [],
             "type": "3"
@@ -8390,6 +8390,125 @@
             "id": "f831e9ff-5c7a-4a85-bb06-df77bf69a4ef",
             "x": 906.6666666666667,
             "y": 30,
+            "actors": [],
+            "triggers": [],
+            "type": "4"
+        },
+        {
+            "name": "Boss 1 - Intro Cutscene",
+            "backgroundId": "5fc11ef8-a312-4ea3-b55b-4adf45eab41d",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "8e836356-9a4c-4e64-95d4-be62952170a9",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    }
+                },
+                {
+                    "id": "54986285-a0e5-4bca-b9ad-0369d97d1452",
+                    "command": "EVENT_AWAIT_INPUT",
+                    "args": {
+                        "input": [
+                            "a",
+                            "b",
+                            "start",
+                            "select"
+                        ]
+                    }
+                },
+                {
+                    "id": "54e4cd46-8cfe-46aa-941b-f204aa7dd6ab",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "The Hour of\nJudgment is nigh",
+                            "And the Moon is\ncleft\nasunder."
+                        ],
+                        "avatarId": ""
+                    }
+                },
+                {
+                    "id": "723a46f5-a923-44bb-89e9-72fd123f72db",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "df1d48f0-5ef4-4f5f-a3ba-89aa23ebed65",
+                        "x": 10,
+                        "y": 32,
+                        "direction": "up",
+                        "fadeSpeed": "4"
+                    }
+                },
+                {
+                    "id": "e5bda491-a05f-4f77-891d-2dfc92aadc4c",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "aac1a791-a539-410a-9a11-0f53403e8169",
+            "x": 114.66666666666666,
+            "y": 682.6666666666662,
+            "actors": [],
+            "triggers": [],
+            "type": "4"
+        },
+        {
+            "name": "Boss 1 - Outro Cutscene",
+            "backgroundId": "5fc11ef8-a312-4ea3-b55b-4adf45eab41d",
+            "width": 20,
+            "height": 18,
+            "collisions": [],
+            "tileColors": [],
+            "script": [
+                {
+                    "id": "562c8042-f20e-4f35-92d7-947c93249e7d",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    }
+                },
+                {
+                    "id": "ccf00e5e-6980-456c-ab17-b99bc753e81f",
+                    "command": "EVENT_AWAIT_INPUT",
+                    "args": {
+                        "input": [
+                            "a",
+                            "b",
+                            "start",
+                            "select"
+                        ]
+                    }
+                },
+                {
+                    "id": "03bfac92-7deb-40cc-9a2f-25bcfc206af5",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Beloved moon,",
+                            "shed\nyour silver\nradiance.",
+                            "Weep down through\nthe hazy clouds",
+                            "As the one you\nhave forsaken\nweeps."
+                        ],
+                        "avatarId": ""
+                    }
+                },
+                {
+                    "id": "504f8ae3-1943-46d7-8437-3ab2a027ca04",
+                    "command": "EVENT_END"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "id": "d8d873c4-b833-4e35-865f-41c498585e4f",
+            "x": 601.3333333333335,
+            "y": 686.6666666666664,
             "actors": [],
             "triggers": [],
             "type": "4"
@@ -9808,7 +9927,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "8c74f758-3f29-4900-a859-709d1e298278",
+        "startSceneId": "d8d873c4-b833-4e35-865f-41c498585e4f",
         "startX": 0,
         "startY": 0,
         "showCollisions": true,
