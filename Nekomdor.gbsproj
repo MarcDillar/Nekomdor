@@ -161,7 +161,9 @@
                     "args": {
                         "customEventId": "c00a034b-7ed6-4421-b6a2-2238af6883e0",
                         "__name": "Init Dash - Vertical",
-                        "__collapse": true
+                        "__collapse": false,
+                        "$variable[0]$": "L0",
+                        "$variable[1]$": "L1"
                     },
                     "children": {
                         "script": [
@@ -8402,8 +8404,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cutscene_placeholder.png",
-            "inode": "1125899906851822",
-            "_v": 1614447253211
+            "inode": "3377699720757193",
+            "_v": 1614448453901
         },
         {
             "id": "27dd00f2-acd5-4b82-a248-bf00e917251b",
@@ -8413,8 +8415,8 @@
             "imageWidth": 2040,
             "imageHeight": 144,
             "filename": "leaving_earth.png",
-            "inode": "1125899906851823",
-            "_v": 1614447253211
+            "inode": "5066549581021130",
+            "_v": 1614448453901
         },
         {
             "id": "837f0b5b-0826-4c76-95d1-7f71e387e775",
@@ -8424,8 +8426,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "inode": "1125899906851824",
-            "_v": 1614447253211
+            "inode": "3659174697467851",
+            "_v": 1614448453901
         },
         {
             "id": "16389e2d-7e9f-4d69-bf8b-00fe5ac6a289",
@@ -8435,8 +8437,8 @@
             "imageWidth": 2040,
             "imageHeight": 144,
             "filename": "lvl_1.png",
-            "inode": "1125899906851825",
-            "_v": 1614447253211
+            "inode": "3096224744046540",
+            "_v": 1614448453901
         },
         {
             "id": "8b4fa39a-6244-43af-ab87-fc5ed1b7bf48",
@@ -8446,8 +8448,8 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "lvl_2.png",
-            "inode": "1125899906851826",
-            "_v": 1614447253211
+            "inode": "16888498602868685",
+            "_v": 1614448453901
         },
         {
             "id": "634b6a56-497f-411a-a0ab-559a05235069",
@@ -8457,8 +8459,8 @@
             "imageWidth": 192,
             "imageHeight": 368,
             "filename": "lvl_boss.png",
-            "inode": "1125899906851827",
-            "_v": 1614447253211
+            "inode": "8444249301549006",
+            "_v": 1614448453901
         },
         {
             "id": "c526ba81-47b6-4c34-9b8b-4562af7ed0f3",
@@ -8468,8 +8470,8 @@
             "imageWidth": 2040,
             "imageHeight": 144,
             "filename": "lvl_forest.png",
-            "inode": "1125899906851828",
-            "_v": 1614447253211
+            "inode": "5629499534442451",
+            "_v": 1614448453901
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -8479,8 +8481,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "1125899906851829",
-            "_v": 1614447253211
+            "inode": "6473924464574421",
+            "_v": 1614448453901
         },
         {
             "id": "4b838964-3445-4393-aac8-7e94c962997d",
@@ -8490,8 +8492,8 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "sources\\lvl_source1.png",
-            "inode": "1125899906852013",
-            "_v": 1614447253213
+            "inode": "4785074604310506",
+            "_v": 1614448453901
         },
         {
             "id": "c732c08f-c0e6-46dd-b0c2-6efd043482fb",
@@ -8501,8 +8503,8 @@
             "imageWidth": 2040,
             "imageHeight": 144,
             "filename": "stars_wide.png",
-            "inode": "1125899906852096",
-            "_v": 1614447253211
+            "inode": "5629499534442672",
+            "_v": 1614448453901
         },
         {
             "id": "4e09b856-9db4-4e5a-9e93-bbaad5a3ca25",
@@ -8512,8 +8514,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "inode": "1125899906852100",
-            "_v": 1614447253213
+            "inode": "3940649674178738",
+            "_v": 1614448453901
         },
         {
             "id": "88191d98-9561-4a2a-b505-450e37ae0ab8",
@@ -8523,8 +8525,8 @@
             "imageWidth": 160,
             "imageHeight": 288,
             "filename": "titlescreen_intro.png",
-            "inode": "1125899906852101",
-            "_v": 1614447253211
+            "inode": "5629499534442676",
+            "_v": 1614448453901
         }
     ],
     "spriteSheets": [
@@ -8534,8 +8536,8 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "1125899906852108",
-            "_v": 1614447253203
+            "inode": "6192449487864013",
+            "_v": 1614448453900
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -8543,8 +8545,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "1125899906852109",
-            "_v": 1614447253203
+            "inode": "7318349394706638",
+            "_v": 1614448453900
         },
         {
             "id": "f90c485e-4d5d-4f96-8c80-bf15614bd793",
@@ -8552,8 +8554,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "actor_dash.png",
-            "inode": "1125899906852110",
-            "_v": 1614447253203
+            "inode": "6473924464574671",
+            "_v": 1614448453900
         },
         {
             "id": "fb6158cf-12d2-49de-a139-1fd107a473fe",
@@ -8561,8 +8563,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "bullet_left.png",
-            "inode": "1125899906852111",
-            "_v": 1614447253203
+            "inode": "11258999068655826",
+            "_v": 1614448453900
         },
         {
             "id": "212109be-2ec7-4df2-9ec3-68d1be1f44a9",
@@ -8570,8 +8572,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "enemy_1.png",
-            "inode": "1125899906852112",
-            "_v": 1614447253203
+            "inode": "7318349394706643",
+            "_v": 1614448453900
         },
         {
             "id": "8f1c9792-1c04-4127-b05a-a531ff1e9ccd",
@@ -8579,8 +8581,8 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "enemy_ship.png",
-            "inode": "1125899906852113",
-            "_v": 1614447253203
+            "inode": "8162774324838612",
+            "_v": 1614448453900
         },
         {
             "id": "14887251-3c7f-4cf2-aae6-a5d2c21fc82a",
@@ -8588,8 +8590,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "explode.png",
-            "inode": "1125899906852114",
-            "_v": 1614447253203
+            "inode": "8162774324838615",
+            "_v": 1614448453900
         },
         {
             "id": "867142f1-4539-47c1-aed3-7705f6f5b503",
@@ -8597,8 +8599,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "kaguya_dark.png",
-            "inode": "1125899906852115",
-            "_v": 1614447253203
+            "inode": "4785074604310744",
+            "_v": 1614448453900
         },
         {
             "id": "bbf5a143-ec36-46eb-8138-6823028c2c3c",
@@ -8606,8 +8608,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "kaguya_dash.png",
-            "inode": "1125899906852116",
-            "_v": 1614447253203
+            "inode": "20266198323396825",
+            "_v": 1614448453900
         },
         {
             "id": "b5e71a98-d166-409b-b511-1f7e8a1cc207",
@@ -8615,8 +8617,8 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "kaguya_light.png",
-            "inode": "1125899906852117",
-            "_v": 1614447253203
+            "inode": "8725724278259930",
+            "_v": 1614448453900
         },
         {
             "id": "50b3f47b-b2ad-4300-98a9-5441065341f8",
@@ -8624,8 +8626,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "spear_horizontal.png",
-            "inode": "1125899906852118",
-            "_v": 1614447253203
+            "inode": "2814749767336155",
+            "_v": 1614448453900
         },
         {
             "id": "a5894d3a-ae0f-4586-9afb-38de0f65b81a",
@@ -8633,8 +8635,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "spear_vertical.png",
-            "inode": "1125899906852119",
-            "_v": 1614447253203
+            "inode": "14636698789183708",
+            "_v": 1614448453900
         },
         {
             "id": "05b21855-a3a5-4478-b137-0edc85d3d68f",
@@ -8642,8 +8644,8 @@
             "numFrames": 8,
             "type": "animated",
             "filename": "star_1_animated.png",
-            "inode": "1125899906852121",
-            "_v": 1614447253211
+            "inode": "3377699720757469",
+            "_v": 1614448453901
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -8651,8 +8653,8 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "1125899906852122",
-            "_v": 1614447253211
+            "inode": "4222124650889438",
+            "_v": 1614448453901
         },
         {
             "id": "2028f2b6-0311-4ded-9460-c962687f44b8",
@@ -8660,8 +8662,8 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "sword_horizontal.png",
-            "inode": "1125899906852123",
-            "_v": 1614447253211
+            "inode": "3096224744046815",
+            "_v": 1614448453901
         }
     ],
     "palettes": [
@@ -9739,32 +9741,32 @@
             "name": "Detective Intro",
             "filename": "Detective Intro.mod",
             "settings": {},
-            "inode": "1125899906852103",
-            "_v": 1614447253181
+            "inode": "10977524091945142",
+            "_v": 1614448453875
         },
         {
             "id": "137b9465-da4a-4d17-a0b9-c6c34c564af4",
             "name": "Short Hauntings",
             "filename": "Short Hauntings.mod",
             "settings": {},
-            "inode": "1125899906852104",
-            "_v": 1614447253182
+            "inode": "6192449487863994",
+            "_v": 1614448453875
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "1125899906852105",
-            "_v": 1614447253182
+            "inode": "4785074604310720",
+            "_v": 1614448453875
         },
         {
             "id": "37e86cea-65f6-4694-857f-161d169c4ed0",
             "name": "test_intro",
             "filename": "test_intro.mod",
             "settings": {},
-            "inode": "1125899906852106",
-            "_v": 1614447253182
+            "inode": "5348024557732034",
+            "_v": 1614448453875
         }
     ],
     "variables": [
